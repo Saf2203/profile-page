@@ -1,5 +1,6 @@
 body {
-  background-image:'file:///C:/Users/wazads/OneDrive%20-%20Henkel/Desktop/html-css%20course/data/background.jpg'; /* 
+  background-color: #ccf9ff; /* Background color set to #ccf9ff */
+  background-image: url('file:///C:/Users/wazads/OneDrive%20-%20Henkel/Desktop/html-css%20course/data/background.jpg'); /* Background image */
   background-size: cover;
   background-position: center;
   font-family: 'Montserrat', sans-serif; /* Custom font */
