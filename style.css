@@ -1,48 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title> Henkel technologies  - Data analyst - Safouane WAZAD </title>
+body {
+  background-color: #ccf9ff; /* Background color set to #ccf9ff */
+  background-image: url('file:///C:/Users/wazads/OneDrive%20-%20Henkel/Desktop/html-css%20course/data/background.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif; /* Custom font */
+  color: #333; /* Dark grey text color */
+  padding: 20px;
+  margin: 0;
+}
 
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+.card {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for card */
+  padding: 30px;
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  max-width: 600px;
+  margin: 20px auto;
+}
 
-    <script src="https://kit.fontawesome.com/5247078dce.js" crossorigin="anonymous"></script>
-    
-    <div class="card">
-      <h2>👋 Hello, I'm Safouane</h2>
-      <img src="images/PDP.jpeg" alt="profile picture" class="circle-image">
-      <p>I am a data analyst passionate with business developement</p>
-      <a href="https://www.linkedin.com/in/Safouane-wazad/">
-          <img src="images/linkedIn_logo.png" alt="LinkedIn">
-      </a>
-    </div>
+.card a img {
+  width: 30px;
+  height: auto;
+}
 
-    <div class="card half-width">
-      <h2>My company 🏢</h2>
-      <p>Henkel technologies France , the leader in adhesive technologies</p>
-    </div>
+.card h2 {
+  color: #007bff; /* Blue */
+}
 
-    <div class="card half-width">
-      <h2>Technologies used 💻</h2>
-      <p>Power BI, Excel, Sales BI, ISR</p>
-    </div>
+.half-width {
+  width: 50%;
+}
 
-    <div class="card half-width">
-      <h2>Activities 🏊‍♂️</h2>
-      <p>Crossfit, ping pong , surf</p>
-    </div>
+.circle-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
 
-  </body>
-</html>
-<Div class ="card half-width">
-  <h2>Mes Réseaux Sociaux</h2>
-  <div id="social-media">
-  <div class="list-inline">
-  <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok logo-rs effect"></i></a>
-  <a href="https://www.instagram.com"><i class="fa-brands fa-instagram logo-rs effect"></i></a>
-  <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook logo-rs effect"></i></a>
-  </div>
-  </div>
-  </Div>
+.emphasis {
+  font-size: 1.2em;
+  color: #dc3545; /* Red */
+}
+
+.emoji {
+  font-size: 1.5em;
+  margin-right: 5px;
+}
+
+/* Additional styling for links */
+a {
+  color: #007bff; /* Blue */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+.list-inline{
+  display: flex;
+  justify-content: space-evenly  ;
+  align-items: center;
+  font-size: 50px;  
+  width: 200px;
+   }
+#social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-rs {
+
+width: 80%;
+text-align: center;
+}
