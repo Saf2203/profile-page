@@ -1,0 +1,61 @@
+body {
+  background-image:'file:///C:/Users/wazads/OneDrive%20-%20Henkel/Desktop/html-css%20course/data/background.jpg'; /* 
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif; /* Custom font */
+  color: #333; /* Dark grey text color */
+  padding: 20px;
+  margin: 0;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for card */
+  padding: 30px;
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.card a img {
+  width: 30px;
+  height: auto;
+}
+
+.card h2 {
+  color: #007bff; /* Blue */
+}
+
+.half-width {
+  width: 50%;
+}
+
+.circle-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.emphasis {
+  font-size: 1.2em;
+  color: #dc3545; /* Red */
+}
+
+.emoji {
+  font-size: 1.5em;
+  margin-right: 5px;
+}
+
+/* Additional styling for links */
+a {
+  color: #007bff; /* Blue */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
